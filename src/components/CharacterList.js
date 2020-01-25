@@ -32,7 +32,7 @@ export default function CharacterList() {
     return (
       <div>
         <Link to="/"><button>Go Back Home</button></Link>
-       
+        earchForm chars={chars} query={query} setQuery={setQuery} handleQuery={handleQuery} />
         <h2>Character List</h2>
         {
           chars.map((char, index) => {

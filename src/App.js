@@ -9,8 +9,8 @@ export default function App() {
   return (
     <main>
       <Header />
-      <Route path="/characters" render={() => <CharacterList />} />
       <Route exact path="/" render={() => <WelcomePage />} />
+      <Route path="/characters" render={() => <CharacterList />} />
     </main>
   );
 }
